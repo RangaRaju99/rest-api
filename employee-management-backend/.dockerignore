@@ -5,6 +5,7 @@ target/
 .vscode/
 Dockerfile
 .dockerignore
+.env
 HELP.md
 mvnw
 mvnw.cmd
