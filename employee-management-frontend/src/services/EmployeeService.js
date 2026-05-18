@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-// Base URL of the Spring Boot Backend API (loads from .env file, or falls back to localhost)
+// Base URL of the Spring Boot Backend API (loads from env, defaults to local dev port)
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8080/api/employees';
 
 class EmployeeService {
